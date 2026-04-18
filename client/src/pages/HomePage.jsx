@@ -10,13 +10,13 @@ function HomePage() {
 
   const services = [
     { 
-      title: "Premium Housing", 
+      title: "Premium Housing For University Students", 
       image: "/assets/images/eco/room.png", 
       path: "/rooms",
       desc: "Eco-friendly, verified student rooms with lush views and modern sustainable amenities." 
     },
     { 
-      title: "Green Dining", 
+      title: "Green Dining With Budget Friendly", 
       image: "/assets/images/eco/food.png", 
       path: "/food",
       desc: "Healthy, locally-sourced meal plans and campus dining menus tailored for your wellness." 
