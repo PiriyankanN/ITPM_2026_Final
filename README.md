@@ -1,3 +1,4 @@
+
 # ITPM_2026_Final
 
 # Student Living Assistant
@@ -48,7 +49,7 @@ student-living-assistant/
 ## Collections
 
 - Users
-- Rooms (Nitharshika)
+- Rooms
 - Inquiries
 - FoodServices
 - BusRoutes
@@ -124,3 +125,5 @@ http://localhost:5173
 - The frontend uses simple pages and reusable components.
 - JWT authentication is left out for now to keep the project simple.
 - Postman can be used to test endpoints before extending the UI.
+- Postman can be used to test endpoints before extending the UI.
+
