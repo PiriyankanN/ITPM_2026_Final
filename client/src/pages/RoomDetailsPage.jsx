@@ -169,7 +169,7 @@ function RoomDetailsPage() {
             
             <div className="card" style={{ padding: "32px", borderRadius: "20px" }}>
               <h3 style={{ fontSize: "1.5rem", color: "var(--secondary)", marginBottom: "16px", display: "flex", alignItems: "center", gap: "12px" }}>
-                <span>📍</span> Neighborhood & Location
+                <span>📍</span> Location & Neighbour
               </h3>
               <p className="text-muted" style={{ marginBottom: "20px" }}>
                 Located at <strong>{room.location}</strong>. Explore the surrounding area below to see proximity to campus and transit.
