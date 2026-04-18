@@ -23,7 +23,7 @@ function RoomForm({ onSubmit, editingRoom, onCancel }) {
     if (!formData.location.trim()) newErrors.location = "Location is required";
     if (!formData.locationName.trim()) newErrors.locationName = "Area name is required";
     if (!formData.googleMapsLink.trim()) newErrors.googleMapsLink = "Google Maps link is required";
-    if (!formData.price || formData.price <= 0) newErrors.price = "Enter a valid monthly price";
+    if (!formData.price || formData.price <= 0) newErrors.price = "Enter a valid price";
     
     // Contact number validation (exactly 10 digits)
     const isNumeric = /^\d*$/.test(formData.contactNumber);
@@ -109,7 +109,7 @@ function RoomForm({ onSubmit, editingRoom, onCancel }) {
         </div>
 
         <div className="form-group">
-          <label htmlFor="location">Street Address *</label>
+          <label htmlFor="location">Street Address*</label>
           <input 
             id="location" 
             name="location" 
@@ -122,7 +122,7 @@ function RoomForm({ onSubmit, editingRoom, onCancel }) {
         </div>
 
         <div className="form-group">
-          <label htmlFor="locationName">Area Name *</label>
+          <label htmlFor="locationName">Area *</label>
           <input 
             id="locationName" 
             name="locationName" 
@@ -148,7 +148,7 @@ function RoomForm({ onSubmit, editingRoom, onCancel }) {
         </div>
 
         <div className="form-group">
-          <label htmlFor="price">Monthly Price *</label>
+          <label htmlFor="price"> Price *</label>
           <input
             id="price"
             name="price"
@@ -216,7 +216,7 @@ function RoomForm({ onSubmit, editingRoom, onCancel }) {
             checked={formData.isAvailable}
             onChange={handleChange}
           />{" "}
-          Currently available
+          Currently available rooms
         </label>
 
         <div className="button-row">
