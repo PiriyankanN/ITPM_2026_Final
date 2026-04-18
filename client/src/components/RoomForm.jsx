@@ -23,7 +23,7 @@ function RoomForm({ onSubmit, editingRoom, onCancel }) {
     if (!formData.location.trim()) newErrors.location = "Location is required";
     if (!formData.locationName.trim()) newErrors.locationName = "Area name is required";
     if (!formData.googleMapsLink.trim()) newErrors.googleMapsLink = "Google Maps link is required";
-    if (!formData.price || formData.price <= 0) newErrors.price = "Enter a valid monthly price";
+    if (!formData.price || formData.price <= 0) newErrors.price = "Enter a valid price";
     
     // Contact number validation (exactly 10 digits)
     const isNumeric = /^\d*$/.test(formData.contactNumber);
