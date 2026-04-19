@@ -90,7 +90,7 @@ function ContactPage() {
               marginBottom: "16px"
             }}
           >
-            OUR OFFICES WORLDWIDE
+            OUR OFFICE IN SRILANKA
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0 }}
